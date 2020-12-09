@@ -20,12 +20,14 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     utilisateur/responsablepc.cpp \
+    utilisateur/testresponsablepc.cpp \
     utilisateur/testutilisateur.cpp \
     utilisateur/utilisateur.cpp
 
 HEADERS += \
     mainwindow.h \
     utilisateur/responsablepc.h \
+    utilisateur/testresponsablepc.h \
     utilisateur/testutilisateur.h \
     utilisateur/utilisateur.h
 

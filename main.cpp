@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include <iostream>
 #include <QApplication>
+#include "utilisateur/testresponsablepc.h"
 
 
 //using namespace std ;
@@ -14,5 +15,9 @@ int main(int argc, char *argv[])
     * et d'inclure la class testutilisateur
     * testUtilisateur::TestUtilisateur t;
     t.test();*/
+
+    /*ici nous allons tester la classe responsable du point de collecte */
+    testResponsablePC res;
+    res.test();
 
 }

@@ -1,6 +1,6 @@
 #include "utilisateur/testutilisateur.h"
 
-
+//cette classe permet de tester la création d'un utilisateur
 testUtilisateur::TestUtilisateur::TestUtilisateur()
 {
 

@@ -16,7 +16,7 @@ namespace utilisateur {
              * @param nom
              * @param prenom
              */
-          //responsablePC(const QString &email, const QString &motDePasse, const QString &nom, const QString &prenom);
+          responsablePC(const QString &email, const QString &motDePasse, const QString &nom, const QString &prenom);
           //on ajoute une fonction qui permet de creer un point de collecte
           /**
            * @brief Creer un point de collecte dont il est le responsable.

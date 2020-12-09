@@ -2,10 +2,10 @@
 
 using namespace utilisateur;
 
-    /*responsablePC(const QString &email, const QString &motDePasse, const QString &nom, const QString &prenom):email(email), mot_de_passe(mdp), nom(nom), prenom(prenom)
+    responsablePC::responsablePC(const QString &email, const QString &motDePasse, const QString &nom, const QString &prenom) : Utilisateur::Utilisateur(email,motDePasse,nom,prenom)
     {
 
-    }*/
+    }
     //fonction d'affichage
     QString responsablePC::responsablePC::toString() const{
         QString res="ResponsablePC: ";
