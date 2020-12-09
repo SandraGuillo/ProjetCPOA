@@ -2,7 +2,7 @@
 
 testResponsablePC::testResponsablePC()
 {
-    std::cout << "test1 ok";
+    std::cout << "test responsable ok";
 }
 void testResponsablePC::test(){
     const QString mail = "bob@free.fr";

@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include <iostream>
 #include <QApplication>
-#include "utilisateur/testresponsablepc.h"
+#include "pc/testpointdecollecte.h"
 
 
 //using namespace std ;
@@ -16,8 +16,12 @@ int main(int argc, char *argv[])
     * testUtilisateur::TestUtilisateur t;
     t.test();*/
 
-    /*ici nous allons tester la classe responsable du point de collecte */
+    /*ici nous allons tester la classe responsable du point de collecte . penser a include la classe testResponsablePC
     testResponsablePC res;
-    res.test();
+    res.test();*/
+
+    /*ici on test le point de collecte*/
+    testPointDeCollecte pc;
+    pc.test();
 
 }

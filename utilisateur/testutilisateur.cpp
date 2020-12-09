@@ -4,7 +4,7 @@
 testUtilisateur::TestUtilisateur::TestUtilisateur()
 {
 
-    std::cout << "test1 ok";
+    std::cout << "test utilisateur ok";
 
 }
 
