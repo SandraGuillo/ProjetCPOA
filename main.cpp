@@ -1,5 +1,4 @@
 #include "mainwindow.h"
-#include "utilisateur/testutilisateur.h"
 #include <iostream>
 #include <QApplication>
 
@@ -11,7 +10,9 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     MainWindow w;
     w.show();
-    testUtilisateur::TestUtilisateur t;
-    t.test();
+    /* cette partie permet de tester la classe utilisateur a la seule condition de remttre en public le constructeur utilisateur en public
+    * et d'inclure la class testutilisateur
+    * testUtilisateur::TestUtilisateur t;
+    t.test();*/
 
 }

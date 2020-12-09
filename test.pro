@@ -19,11 +19,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
+    utilisateur/responsablepc.cpp \
     utilisateur/testutilisateur.cpp \
     utilisateur/utilisateur.cpp
 
 HEADERS += \
     mainwindow.h \
+    utilisateur/responsablepc.h \
     utilisateur/testutilisateur.h \
     utilisateur/utilisateur.h
 

@@ -44,7 +44,6 @@ namespace utilisateur {
           Utilisateur(const QString &email, const QString &mdp, const QString &nom, const QString &prenom);*/
 
         public:
-
           /**
            * @brief Constructeur
            * @param email

@@ -7,6 +7,8 @@ testUtilisateur::TestUtilisateur::TestUtilisateur()
     std::cout << "test1 ok";
 
 }
+
+//pour effectuer ce test il faut modifier le constructeur d'utilisateur en le mettant en public a la place de protected
 void testUtilisateur::TestUtilisateur::test(){
     const QString mail = "bob@free.fr";
     const QString mdp = "bobo54";
