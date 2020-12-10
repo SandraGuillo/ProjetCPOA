@@ -3,6 +3,7 @@
 #include <QString>
 #include <QDateTime>
 #include "utilisateur/responsablepc.h"
+#include "pc/etatpointdecollecte.h"
 
 
 class PointDeCollecte
@@ -32,6 +33,10 @@ private:
     * @brief Le responsable du point de collecte.
     */
     utilisateur::responsablePC respo;//(const QString &email, const QString &motDePasse, const QString &nom, const QString &prenom) ;
+    /**
+     * @brief etatpc
+     */
+    //EtatPointDeCollecte etatpc ;
 
 public:
     /**
