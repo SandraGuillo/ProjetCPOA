@@ -5,10 +5,19 @@
 #include <QString>
 #include <iostream>
 
+/**
+ * @brief The testPointDeCollecte class classe qui teste le point de collecte
+ */
 class testPointDeCollecte
 {
 public:
+    /**
+     * @brief testPointDeCollecte le constructeur du test
+     */
     testPointDeCollecte();
+    /**
+     * @brief test la fonction ou l'on genere les differents test du point de collecte
+     */
     void test();
 };
 

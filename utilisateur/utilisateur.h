@@ -46,19 +46,19 @@ namespace utilisateur {
         public:
           /**
            * @brief Constructeur
-           * @param email
-           * @param mot_de_passe
-           * @param nom
-           * @param prenom
+           * @param email de l'utilisateur
+           * @param mot_de_passe de l'utilisateur
+           * @param nom de l'utilisateur
+           * @param prenom de l'utilisateur
            */
           Utilisateur(const QString &email, const QString &mdp, const QString &nom, const QString &prenom);
           /**
-           * @brief toString
+           * @brief toString fonction qui permet d'afficher toutes les informations de l'utilisateur
            * @return String representative.
            */
           QString toString() const;
           /**
-           * @brief Getter email.
+           * @brief Getter email. permet de retrouver l'email de l'utilisateur
            * @return email
            */
           QString getEmail() const;

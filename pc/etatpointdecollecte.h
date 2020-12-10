@@ -3,7 +3,7 @@
 #include <QString>
 #include <QList>
 /**
- * @brief The EtatPointDeCollecte class
+ * @brief The EtatPointDeCollecte class qui va permettre de regarder l'etat de la validation
  */
 class EtatPointDeCollecte
 {
@@ -14,12 +14,12 @@ private:
     QList<QString> pc ;
 public:
     /**
-     * @brief EtatPointDeCollecte
+     * @brief EtatPointDeCollecte le constructeur par default
      */
     EtatPointDeCollecte();
     /**
-     * @brief toString
-     * @return
+     * @brief toString la fonction qui va afficher si c'est valide ou en attente de validation
+     * @return un string qui notifiera si c'est valide ou en attente
      */
     virtual QString toString() const = 0;
 };

@@ -7,17 +7,23 @@
 #include <QList>
 
 namespace utilisateur {
+    /**
+     * @brief The responsablePC class la class qui permet de gerer ce qui concerne le responsable du point de collecte
+     */
     class responsablePC : public Utilisateur
     {
     private:
+        /**
+         * @brief pc la liste des points de collecte associes au responsable
+         */
         QList<QString> pc ;
     public:
             /**
              * @brief Constructeur
-             * @param email
-             * @param motDePasse
-             * @param nom
-             * @param prenom
+             * @param email du responsable
+             * @param motDePasse du responsable
+             * @param nom le nom du responsable
+             * @param prenom du responsable
              */
           responsablePC(const QString &email, const QString &motDePasse, const QString &nom, const QString &prenom);
           //on ajoute une fonction qui permet de creer un point de collecte
@@ -27,14 +33,12 @@ namespace utilisateur {
            * @return Point de collecte cree.
            */
           //PointCollecte creerPC(const QString &nom);
-          //ici on ajoute la fonction pour ajouter des producteurs sur le site
-          /**
-           * @brief Ajoute un producteur au point de collecte.
-           * @param producteur
-           * @param pc
-           */
-          //void ajouterProducteur(Producteur &producteur, const pc::PointCollecte &pc) const;
+
           //fonction d'affichage
+          /**
+           * @brief toString la fonction qui permet d'afficher les informations du responsable du point de collecte
+           * @return les informations du responsable
+           */
           QString toString() const;
     };
 }
