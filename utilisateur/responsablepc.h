@@ -5,6 +5,7 @@
 // on inclut la class utilisateur
 #include "utilisateur/utilisateur.h"
 
+
 namespace utilisateur {
     class responsablePC : public Utilisateur
     {

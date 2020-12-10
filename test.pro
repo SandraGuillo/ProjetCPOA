@@ -19,8 +19,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
+    pc/attentevalidation.cpp \
     pc/pointdecollecte.cpp \
     pc/testpointdecollecte.cpp \
+    pc/valide.cpp \
     utilisateur/responsablepc.cpp \
     utilisateur/testresponsablepc.cpp \
     utilisateur/testutilisateur.cpp \
@@ -28,8 +30,11 @@ SOURCES += \
 
 HEADERS += \
     mainwindow.h \
+    pc/attentevalidation.h \
+    pc/etatpointdecollecte.h \
     pc/pointdecollecte.h \
     pc/testpointdecollecte.h \
+    pc/valide.h \
     utilisateur/responsablepc.h \
     utilisateur/testresponsablepc.h \
     utilisateur/testutilisateur.h \

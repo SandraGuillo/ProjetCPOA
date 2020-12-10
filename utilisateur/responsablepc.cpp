@@ -12,3 +12,6 @@ using namespace utilisateur;
         return res.append(Utilisateur::toString());
 
     }
+    /*PointDeCollecte creerPC(const QString &nom){
+        //PointDeCollecte pc
+    }*/
