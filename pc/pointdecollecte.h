@@ -4,6 +4,8 @@
 #include <QDateTime>
 #include "utilisateur/responsablepc.h"
 #include "pc/etatpointdecollecte.h"
+#include <QList>
+
 
 /**
  * @brief The PointDeCollecte class qui permet la gestion du point de collecte
@@ -39,6 +41,10 @@ private:
      * @brief etatpc l'etat du point de collecte
      */
     //EtatPointDeCollecte etatpc ;
+    /**
+     * @brief listeProducteur la liste des producteur du point de collecte
+     */
+    //QList<Producteur> listeProducteur;
 
 public:
     /**

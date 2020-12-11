@@ -23,7 +23,9 @@ SOURCES += \
     pc/pointdecollecte.cpp \
     pc/testpointdecollecte.cpp \
     pc/valide.cpp \
+    utilisateur/producteur.cpp \
     utilisateur/responsablepc.cpp \
+    utilisateur/testproducteur.cpp \
     utilisateur/testresponsablepc.cpp \
     utilisateur/testutilisateur.cpp \
     utilisateur/utilisateur.cpp
@@ -35,7 +37,9 @@ HEADERS += \
     pc/pointdecollecte.h \
     pc/testpointdecollecte.h \
     pc/valide.h \
+    utilisateur/producteur.h \
     utilisateur/responsablepc.h \
+    utilisateur/testproducteur.h \
     utilisateur/testresponsablepc.h \
     utilisateur/testutilisateur.h \
     utilisateur/utilisateur.h

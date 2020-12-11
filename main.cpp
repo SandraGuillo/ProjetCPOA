@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include <iostream>
 #include <QApplication>
-#include "pc/testpointdecollecte.h"
+#include "utilisateur/testproducteur.h"
 
 
 
@@ -19,8 +19,11 @@ int main(int argc, char *argv[])
     testResponsablePC res;
     res.test();*/
 
-    /*ici on test le point de collecte*/
+    /*ici on test le point de collecte : pensez a include pc/testPointDeCollecte
     testPointDeCollecte pc;
-    pc.test();
+    pc.test();*/
 
+    /*ici nous allons tester le producteur pensez a include "utilisateur/testutilisateur.h*/
+    TestProducteur prod;
+    prod.test();
 }
