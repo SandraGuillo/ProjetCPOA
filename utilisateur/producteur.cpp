@@ -1,5 +1,6 @@
 #include "producteur.h"
 
+Producteur::Producteur() : Utilisateur::Utilisateur("","","","") {}
 //constructeur d'un producteur
 Producteur::Producteur(const QString &email, const QString &mdp, const QString &nom, const QString &prenom) : Utilisateur::Utilisateur(email,mdp,nom,prenom)
 {

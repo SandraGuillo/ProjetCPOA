@@ -17,6 +17,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    dao/daopointcollecte.cpp \
+    dao/daoproducteur.cpp \
+    dao/daoresponsablepc.cpp \
+    dao/testdao.cpp \
     main.cpp \
     mainwindow.cpp \
     pc/attentevalidation.cpp \
@@ -31,6 +35,11 @@ SOURCES += \
     utilisateur/utilisateur.cpp
 
 HEADERS += \
+    dao/dao.h \
+    dao/daopointcollecte.h \
+    dao/daoproducteur.h \
+    dao/daoresponsablepc.h \
+    dao/testdao.h \
     mainwindow.h \
     pc/attentevalidation.h \
     pc/etatpointdecollecte.h \

@@ -18,6 +18,10 @@ namespace utilisateur {
          */
         QList<QString> pc ;
     public:
+        /**
+         * @brief Constructeur par default
+         */
+        responsablePC();
             /**
              * @brief Constructeur
              * @param email du responsable
@@ -32,7 +36,7 @@ namespace utilisateur {
            * @param Code postal du point de collecte.
            * @return Point de collecte cree.
            */
-          //PointCollecte creerPC(const QString &nom);
+          //PointDeCollecte creerPC(const QString &nom);
 
           //fonction d'affichage
           /**

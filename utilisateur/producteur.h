@@ -13,6 +13,10 @@ private:
     QList<PointDeCollecte> listPC ;
 public:
     /**
+     * @brief Constructeur par default
+     */
+    Producteur();
+    /**
      * @brief Producteur le constructeur du producteur
      */
     Producteur(const QString &email, const QString &mdp, const QString &nom, const QString &prenom);

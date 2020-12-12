@@ -48,6 +48,10 @@ private:
 
 public:
     /**
+     * @brief Constructeur par default
+     */
+    PointDeCollecte();
+    /**
      * @brief PointDeCollecte
      * @param nom le nom du point de collecte
      * @param adresse l'adresse du point de collecte

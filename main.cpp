@@ -1,8 +1,7 @@
 #include "mainwindow.h"
 #include <iostream>
 #include <QApplication>
-#include "utilisateur/testproducteur.h"
-
+#include "dao/testdao.h"
 
 
 int main(int argc, char *argv[])
@@ -23,7 +22,11 @@ int main(int argc, char *argv[])
     testPointDeCollecte pc;
     pc.test();*/
 
-    /*ici nous allons tester le producteur pensez a include "utilisateur/testutilisateur.h*/
+    /*ici nous allons tester le producteur pensez a include "utilisateur/testutilisateur.h
     TestProducteur prod;
-    prod.test();
+    prod.test();*/
+
+    /* test DAO pensez a include "dao/testdao.h" */
+    TestDAO dao;
+    dao.test();
 }

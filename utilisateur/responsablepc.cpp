@@ -1,6 +1,8 @@
 #include "responsablepc.h"
 
 using namespace utilisateur;
+responsablePC::responsablePC() : Utilisateur("", "", "", "") {}
+
     //constructeur du responsable d'un point de collecte
     responsablePC::responsablePC(const QString &email, const QString &motDePasse, const QString &nom, const QString &prenom) : Utilisateur::Utilisateur(email,motDePasse,nom,prenom)
     {
