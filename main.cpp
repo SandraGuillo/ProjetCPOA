@@ -1,7 +1,12 @@
+#include "utilisateur/testutilisateur.h"
+#include "dao/testdao.h"
 #include "mainwindow.h"
+
+#include "utilisateur/testresponsablepc.h"
+#include "pc/testpointdecollecte.h"
+#include "utilisateur/testproducteur.h"
 #include <iostream>
 #include <QApplication>
-#include "dao/testdao.h"
 
 
 int main(int argc, char *argv[])
@@ -10,21 +15,23 @@ int main(int argc, char *argv[])
     MainWindow w;
     w.show();
     /* cette partie permet de tester la classe utilisateur a la seule condition de remttre en public le constructeur utilisateur en public
-    * et d'inclure la class testutilisateur
-    * testUtilisateur::TestUtilisateur t;
-    t.test();*/
+    * et d'inclure la class testutilisateur */
+    //TestUtilisateur t;
+    TestUtilisateur t;
+    t.test();
 
-    /*ici nous allons tester la classe responsable du point de collecte . penser a include la classe testResponsablePC
+
+    /*ici nous allons tester la classe responsable du point de collecte . penser a include la classe testResponsablePC*/
     testResponsablePC res;
-    res.test();*/
+    res.test();
 
-    /*ici on test le point de collecte : pensez a include pc/testPointDeCollecte
+    /*ici on test le point de collecte : pensez a include pc/testPointDeCollecte*/
     testPointDeCollecte pc;
-    pc.test();*/
+    pc.test();
 
-    /*ici nous allons tester le producteur pensez a include "utilisateur/testutilisateur.h
+    /*ici nous allons tester le producteur pensez a include "utilisateur/testutilisateur.h*/
     TestProducteur prod;
-    prod.test();*/
+    prod.test();
 
     /* test DAO pensez a include "dao/testdao.h" */
     TestDAO dao;

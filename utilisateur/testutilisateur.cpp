@@ -1,7 +1,7 @@
 #include "utilisateur/testutilisateur.h"
 
 //cette classe permet de tester la création d'un utilisateur
-testUtilisateur::TestUtilisateur::TestUtilisateur()
+TestUtilisateur::TestUtilisateur()
 {
     std::cout << "test utilisateur ok";
 
@@ -9,7 +9,7 @@ testUtilisateur::TestUtilisateur::TestUtilisateur()
 
 //cette fonction permet de tester tout ce qui concerne l'utilisateur en general
 //pour effectuer ce test il faut modifier le constructeur d'utilisateur en le mettant en public a la place de protected
-void testUtilisateur::TestUtilisateur::test(){
+void TestUtilisateur::test(){
     //test du constructeur
     const QString mail = "bob@free.fr";
     const QString mdp = "bobo54";

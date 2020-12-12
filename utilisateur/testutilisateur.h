@@ -6,7 +6,7 @@
 #include <QString>
 
 
-namespace testUtilisateur {
+
     /**
      * @brief The TestUtilisateur class classe qui permet de tester l'utilisateur
      */
@@ -22,7 +22,7 @@ namespace testUtilisateur {
              */
             void test();
     };
-}
+
 
 
 #endif

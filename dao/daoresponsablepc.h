@@ -1,5 +1,5 @@
-#ifndef DAOPRODUCTEUR_H
-#define DAOPRODUCTEUR_H
+#ifndef DAORESPONSABLEPC_H
+#define DAORESPONSABLEPC_H
 
 #include "dao.h"
 #include "utilisateur/responsablepc.h"
