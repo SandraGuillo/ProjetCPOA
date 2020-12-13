@@ -4,6 +4,7 @@
 #include <QList>
 /**
  * @brief The EtatPointDeCollecte class qui va permettre de regarder l'etat de la validation
+ * @author Sandra GUILLO
  */
 class EtatPointDeCollecte
 {

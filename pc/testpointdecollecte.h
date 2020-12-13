@@ -7,6 +7,7 @@
 
 /**
  * @brief The testPointDeCollecte class classe qui teste le point de collecte
+ * @author Sandra GUILLO
  */
 class testPointDeCollecte
 {

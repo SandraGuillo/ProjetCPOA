@@ -11,6 +11,7 @@
 namespace utilisateur {
     /**
      * @brief The responsablePC class la class qui permet de gerer ce qui concerne le responsable du point de collecte
+     * @author Sandra GUILLO
      */
     class responsablePC : public Utilisateur
     {

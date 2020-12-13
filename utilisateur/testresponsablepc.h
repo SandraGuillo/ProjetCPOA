@@ -9,6 +9,7 @@
 
 /**
  * @brief The testResponsablePC class classe qui permet de tester tout ce dont on a besoin sur le responsable d'un point de collecte
+ * @author Sandra GUILLO
  */
 class testResponsablePC
 {

@@ -5,6 +5,7 @@
 
 /**
  * @brief The Valide class classe qui permet de voir si l'etat du point de collecte est valide ou non
+ * @author Sandra GUILLO
  */
 class Valide : public EtatPointDeCollecte
 {

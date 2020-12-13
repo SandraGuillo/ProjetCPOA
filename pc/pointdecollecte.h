@@ -12,6 +12,7 @@
 
 /**
  * @brief The PointDeCollecte class qui permet la gestion du point de collecte
+ * @author Sandra GUILLO
  */
 class PointDeCollecte
 {

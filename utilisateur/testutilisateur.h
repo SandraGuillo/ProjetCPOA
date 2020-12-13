@@ -9,6 +9,7 @@
 
     /**
      * @brief The TestUtilisateur class classe qui permet de tester l'utilisateur
+     * @author Sandra GUILLO
      */
     class TestUtilisateur
     {

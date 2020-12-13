@@ -7,6 +7,7 @@
 
 /**
  * @brief The Producteur class la classe qui permet de gerer ce qui concerne les producteur
+ * @author Sandra GUILLO
  */
 class Producteur : public utilisateur::Utilisateur
 {
