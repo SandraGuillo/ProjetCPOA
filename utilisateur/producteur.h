@@ -3,6 +3,7 @@
 #include "pc/pointdecollecte.h"
 #include "utilisateur/utilisateur.h"
 #include <QString>
+#include <QList>
 
 /**
  * @brief The Producteur class la classe qui permet de gerer ce qui concerne les producteur
@@ -10,7 +11,7 @@
 class Producteur : public utilisateur::Utilisateur
 {
 private:
-    QList<PointDeCollecte> listPC ;
+    //QList<PointDeCollecte> listPC ;
 public:
     /**
      * @brief Constructeur par default

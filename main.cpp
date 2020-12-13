@@ -5,6 +5,7 @@
 #include "utilisateur/testresponsablepc.h"
 #include "pc/testpointdecollecte.h"
 #include "utilisateur/testproducteur.h"
+#include "pc/testproduit.h"
 #include <iostream>
 #include <QApplication>
 
@@ -36,4 +37,7 @@ int main(int argc, char *argv[])
     /* test DAO pensez a include "dao/testdao.h" */
     TestDAO dao;
     dao.test();
+
+    TestProduit pr;
+    pr.test();
 }

@@ -4,6 +4,8 @@
 #include <QString>
 // on inclut la class utilisateur
 #include "utilisateur/utilisateur.h"
+
+
 #include <QList>
 
 namespace utilisateur {
@@ -16,7 +18,7 @@ namespace utilisateur {
         /**
          * @brief pc la liste des points de collecte associes au responsable
          */
-        QList<QString> pc ;
+        //QList<PointDeCollecte> pc ;
     public:
         /**
          * @brief Constructeur par default

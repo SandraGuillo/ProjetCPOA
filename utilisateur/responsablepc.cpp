@@ -14,6 +14,9 @@ responsablePC::responsablePC() : Utilisateur("", "", "", "") {}
         return res.append(Utilisateur::toString());
 
     }
-    /*PointDeCollecte creerPC(const QString &nom){
-        //PointDeCollecte pc
+    /*void creerPC(const QString &nom,const QString &adresse, const int &codePostal,const QDateTime &dateFermeture,const int &cycleEnJour){
+        dao::DaoPointDeCollecte dpc;
+        dpc.create(PointDeCollecte::PointDeCollecte());
+
+
     }*/

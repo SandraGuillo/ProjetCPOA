@@ -1,10 +1,13 @@
 #ifndef POINTDECOLLECTE_H
 #define POINTDECOLLECTE_H
-#include <QString>
-#include <QDateTime>
+
 #include "utilisateur/responsablepc.h"
 #include "pc/etatpointdecollecte.h"
+#include "utilisateur/producteur.h"
+
 #include <QList>
+#include <QString>
+#include <QDateTime>
 
 
 /**

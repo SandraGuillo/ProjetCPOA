@@ -7,11 +7,6 @@
  */
 class EtatPointDeCollecte
 {
-private:
-    /**
-     * @brief pc la liste des point de collecte
-     */
-    QList<QString> pc ;
 public:
     /**
      * @brief EtatPointDeCollecte le constructeur par default
