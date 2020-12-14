@@ -14,6 +14,10 @@
          */
         AttenteValidation();
         /**
+         * @brief ouvrir la fonction qui va ouvrir un nouveau point de collecte
+         */
+        void ouvrir();
+        /**
          * @brief toString fonction qui va permet d'afficher l'etat de la validation
          * @return un string qui va afficher en attente de validation
          */

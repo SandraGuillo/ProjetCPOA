@@ -14,6 +14,10 @@ responsablePC::responsablePC() : Utilisateur("", "", "", "") {}
         return res.append(Utilisateur::toString());
 
     }
+    //fonction qui retourne la liste des noms des points de collectes
+    QList<QString> responsablePC::getPCs() const{
+        return pc;
+    }
     /*PointDeCollecte creerPC(const QString &nom){
         //PointDeCollecte pc
     }*/

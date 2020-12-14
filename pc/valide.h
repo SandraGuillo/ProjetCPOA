@@ -14,6 +14,10 @@ public:
      */
     Valide();
     /**
+     * @brief ouvrir la fonction qui va ouvrir un nouveau point de collecte
+     */
+    void ouvrir();
+    /**
      * @brief toString la fonction qui permet d'afficher valide lorsque le point de collecte est valider
      * @return valide si l'etat est valide
      */

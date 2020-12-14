@@ -44,6 +44,11 @@ namespace utilisateur {
            * @return les informations du responsable
            */
           QString toString() const;
+          /**
+           * @brief Retourne la liste des noms des points de collectes
+           * @return Point de collecte cree.
+           */
+          QList<QString> getPCs() const;
     };
 }
 
