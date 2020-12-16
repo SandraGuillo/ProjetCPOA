@@ -1,14 +1,16 @@
 #ifndef TESTUTILISATEUR_H
 #define TESTUTILISATEUR_H
+#include "utilisateur.h"
 #include <cassert>
 #include <iostream>
-#include "utilisateur.h"
+
 #include <QString>
 
 
 
     /**
      * @brief The TestUtilisateur class classe qui permet de tester l'utilisateur
+     * @author Sandra GUILLO
      */
     class TestUtilisateur
     {

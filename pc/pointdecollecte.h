@@ -1,15 +1,21 @@
 #ifndef POINTDECOLLECTE_H
 #define POINTDECOLLECTE_H
+
+#include "utilisateur/responsablepc.h"
+
+#include "pc/etatpointdecollecte.h"
+#include "utilisateur/producteur.h"
+#include "pc/venteencours.h"
+
+#include <QList>
 #include <QString>
 #include <QDateTime>
-#include "utilisateur/responsablepc.h"
-#include "pc/venteencours.h"
-#include <QList>
 
 
 
 /**
  * @brief The PointDeCollecte class qui permet la gestion du point de collecte
+ * @author Sandra GUILLO
  */
 class PointDeCollecte
 {

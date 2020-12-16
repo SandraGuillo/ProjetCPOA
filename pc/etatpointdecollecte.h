@@ -5,14 +5,10 @@
 
 /**
  * @brief The EtatPointDeCollecte class qui va permettre de regarder l'etat de la validation
+ * @author Sandra GUILLO
  */
 class EtatPointDeCollecte
 {
-private:
-    /**
-     * @brief pc la liste des point de collecte
-     */
-    QList<QString> pc ;
 public:
     /**
      * @brief EtatPointDeCollecte le constructeur par default

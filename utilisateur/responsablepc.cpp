@@ -14,10 +14,16 @@ responsablePC::responsablePC() : Utilisateur("", "", "", "") {}
         return res.append(Utilisateur::toString());
 
     }
+
+    /*void creerPC(const QString &nom,const QString &adresse, const int &codePostal,const QDateTime &dateFermeture,const int &cycleEnJour){
+        dao::DaoPointDeCollecte dpc;
+        dpc.create(PointDeCollecte::PointDeCollecte());
+
+
     //fonction qui retourne la liste des noms des points de collectes
     QList<QString> responsablePC::getPCs() const{
         return pc;
     }
-    /*PointDeCollecte creerPC(const QString &nom){
+    PointDeCollecte creerPC(const QString &nom){
         //PointDeCollecte pc
     }*/

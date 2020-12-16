@@ -28,7 +28,9 @@ SOURCES += \
     opener.cpp \
     pc/attentevalidation.cpp \
     pc/pointdecollecte.cpp \
+    pc/produit.cpp \
     pc/testpointdecollecte.cpp \
+    pc/testproduit.cpp \
     pc/valide.cpp \
     pc/venteencours.cpp \
     pc/ventetermine.cpp \
@@ -52,7 +54,9 @@ HEADERS += \
     pc/attentevalidation.h \
     pc/etatpointdecollecte.h \
     pc/pointdecollecte.h \
+    pc/produit.h \
     pc/testpointdecollecte.h \
+    pc/testproduit.h \
     pc/valide.h \
     pc/venteencours.h \
     pc/ventetermine.h \

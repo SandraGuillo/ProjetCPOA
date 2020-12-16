@@ -5,6 +5,7 @@
 
 /**
  * @brief The TestProducteur class classe qui permet de tester ce qui concerne le producteur
+ * @author Sandra GUILLO
  */
 class TestProducteur
 {

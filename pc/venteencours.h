@@ -1,7 +1,8 @@
 #ifndef VENTEENCOURS_H
 #define VENTEENCOURS_H
 
-#include <pc/etatpointdecollecte.h>
+#include "pc/etatpointdecollecte.h"
+#include <QString>
 
 /**
  * @brief The VenteEnCours class la classe qui designe l'etat de la vente quand elle est en cours

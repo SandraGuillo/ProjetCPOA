@@ -6,6 +6,7 @@
 /**
  * @namespace utilisateur
  * Contient toutes les classes utilisateurs.
+ * @author Sandra GUILLO
  */
 namespace utilisateur {
     /**

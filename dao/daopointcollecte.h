@@ -1,5 +1,5 @@
-#ifndef DAOPRODUCTEUR_H
-#define DAOPRODUCTEUR_H
+#ifndef DAOPOINTDECOLLECTE_H
+#define DAOPOINTDECOLLECTE_H
 
 #include "dao.h"
 #include "pc/pointdecollecte.h"

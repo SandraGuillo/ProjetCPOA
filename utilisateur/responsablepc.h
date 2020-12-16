@@ -9,6 +9,7 @@
 namespace utilisateur {
     /**
      * @brief The responsablePC class la class qui permet de gerer ce qui concerne le responsable du point de collecte
+     * @author Sandra GUILLO
      */
     class responsablePC : public Utilisateur
     {
@@ -16,7 +17,7 @@ namespace utilisateur {
         /**
          * @brief pc la liste des points de collecte associes au responsable
          */
-        QList<QString> pc ;
+        //QList<PointDeCollecte> pc ;
     public:
         /**
          * @brief Constructeur par default

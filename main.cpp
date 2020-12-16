@@ -5,6 +5,7 @@
 #include "utilisateur/testresponsablepc.h"
 #include "pc/testpointdecollecte.h"
 #include "utilisateur/testproducteur.h"
+#include "pc/testproduit.h"
 #include <iostream>
 #include <QApplication>
 
@@ -36,5 +37,10 @@ int main(int argc, char *argv[])
     /* test DAO pensez a include "dao/testdao.h" */
     TestDAO dao;
     dao.test();
-    return a.exec();
+
+    
+    //ici on gere les test de tout ce qui concerne les produit
+    /*TestProduit pr;
+    pr.test();*/
+	return a.exec();
 }
