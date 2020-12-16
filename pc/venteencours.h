@@ -5,7 +5,9 @@
 #include <QString>
 
 /**
+
  * @brief The VenteEnCours class la classe qui designe l'etat de la vente quand elle est en cours
+ * @author Khaled SADEGH
  */
 class VenteEnCours : public EtatPointDeCollecte
 {
