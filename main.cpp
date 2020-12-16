@@ -38,6 +38,7 @@ int main(int argc, char *argv[])
     TestDAO dao;
     dao.test();
 
-    TestProduit pr;
-    pr.test();
+    //ici on gere les test de tout ce qui concerne les produit
+    /*TestProduit pr;
+    pr.test();*/
 }

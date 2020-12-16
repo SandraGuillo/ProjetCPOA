@@ -1,9 +1,9 @@
 #ifndef TESTRESPONSABLEPC_H
 #define TESTRESPONSABLEPC_H
 #include "responsablepc.h"
+#include "utilisateur.h"
 #include <cassert>
 #include <iostream>
-#include "utilisateur.h"
 #include <QString>
 
 

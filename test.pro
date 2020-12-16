@@ -29,6 +29,8 @@ SOURCES += \
     pc/testpointdecollecte.cpp \
     pc/testproduit.cpp \
     pc/valide.cpp \
+    pc/venteencours.cpp \
+    pc/ventetermine.cpp \
     utilisateur/producteur.cpp \
     utilisateur/responsablepc.cpp \
     utilisateur/testproducteur.cpp \
@@ -50,6 +52,8 @@ HEADERS += \
     pc/testpointdecollecte.h \
     pc/testproduit.h \
     pc/valide.h \
+    pc/venteencours.h \
+    pc/ventetermine.h \
     utilisateur/producteur.h \
     utilisateur/responsablepc.h \
     utilisateur/testproducteur.h \
