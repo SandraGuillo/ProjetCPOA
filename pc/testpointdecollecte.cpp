@@ -22,6 +22,6 @@ void testPointDeCollecte::test(){
     PointDeCollecte pc(nompc,adresse,codePostal,date, cycleEnJour,resp);
     pc.modifierCycleVente(4);
     pc.ouvrir();//on ouvre le Point de collecte
-    pc.setEtatPointDeCollecte(new VenteEnCours());//on modifie l'etat du PC comme que l'etat est validé
+    //pc.setEtatPointDeCollecte(new VenteEnCours());//on modifie l'etat du PC comme que l'etat est validé
     std::cout<<"test"<< pc.toString().toStdString() <<std::endl;
 }

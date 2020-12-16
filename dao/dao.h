@@ -4,6 +4,7 @@
 #include <QMap>
 /**
  * @namespace dao
+ * @author Nicolas QUEIGNEC
  * Contient toutes les classes pour la DAO permettant de sauvagarder les objets dans des Map.
  */
 namespace dao {
