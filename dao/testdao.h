@@ -8,6 +8,7 @@
 
 
     /**
+     * @author Nicolas QUEIGNEC
      * @brief Classe qui permet de tester la DAO Producteur, comme tout les DAO sont pareils, on ne test que celui ci.
      */
     class TestDAO

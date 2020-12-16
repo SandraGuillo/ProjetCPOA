@@ -26,9 +26,9 @@ int main(int argc, char *argv[])
     testResponsablePC res;
     res.test();
 
-    /*ici on test le point de collecte : pensez a include pc/testPointDeCollecte*/
+    /*ici on test le point de collecte : pensez a include pc/testPointDeCollecte
     testPointDeCollecte pc;
-    pc.test();
+    pc.test();*/
 
     /*ici nous allons tester le producteur pensez a include "utilisateur/testutilisateur.h*/
     TestProducteur prod;
@@ -38,7 +38,9 @@ int main(int argc, char *argv[])
     TestDAO dao;
     dao.test();
 
+    
     //ici on gere les test de tout ce qui concerne les produit
     /*TestProduit pr;
     pr.test();*/
+	return a.exec();
 }

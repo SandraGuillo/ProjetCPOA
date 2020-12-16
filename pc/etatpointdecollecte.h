@@ -5,7 +5,7 @@
 
 /**
  * @brief The EtatPointDeCollecte class qui va permettre de regarder l'etat de la validation
- * @author Sandra GUILLO
+ * @author Sandra GUILLO, Khaled SADEGH
  */
 class EtatPointDeCollecte
 {

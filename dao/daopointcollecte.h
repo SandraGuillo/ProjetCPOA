@@ -6,6 +6,7 @@
 
 namespace dao {
     /**
+     * @author Nicolas QUEIGNEC
      * @brief Classe DAO Singleton pour les PointCollecte. Clé primaire : codePostal.
      */
     class DAOPointCollecte : public DAO<int, PointDeCollecte>

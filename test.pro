@@ -17,12 +17,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    connexionform.cpp \
     dao/daopointcollecte.cpp \
     dao/daoproducteur.cpp \
     dao/daoresponsablepc.cpp \
     dao/testdao.cpp \
+    inscription.cpp \
     main.cpp \
     mainwindow.cpp \
+    opener.cpp \
     pc/attentevalidation.cpp \
     pc/pointdecollecte.cpp \
     pc/produit.cpp \
@@ -39,12 +42,15 @@ SOURCES += \
     utilisateur/utilisateur.cpp
 
 HEADERS += \
+    connexionform.h \
     dao/dao.h \
     dao/daopointcollecte.h \
     dao/daoproducteur.h \
     dao/daoresponsablepc.h \
     dao/testdao.h \
+    inscription.h \
     mainwindow.h \
+    opener.h \
     pc/attentevalidation.h \
     pc/etatpointdecollecte.h \
     pc/pointdecollecte.h \
@@ -62,7 +68,10 @@ HEADERS += \
     utilisateur/utilisateur.h
 
 FORMS += \
-    mainwindow.ui
+    connexionform.ui \
+    inscription.ui \
+    mainwindow.ui \
+    opener.ui
 
 TRANSLATIONS += \
     test_fr_FR.ts

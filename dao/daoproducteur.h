@@ -6,6 +6,7 @@
 
 namespace dao {
     /**
+     * @author Nicolas QUEIGNEC
      * @brief Classe DAO Singleton pour les Producteur. Clé primaire : codePostal.
      */
     class DAOProducteur : public DAO<QString, Producteur>

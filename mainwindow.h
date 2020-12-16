@@ -3,19 +3,30 @@
 
 #include <QMainWindow>
 
-QT_BEGIN_NAMESPACE
-namespace Ui { class MainWindow; }
-QT_END_NAMESPACE
-
+namespace Ui {
+class MainWindow;
+}
+/**
+ * @author Nicolas QUEIGNEC
+ * @brief Fenêtre principale
+ */
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
+    /**
+     * @brief Constructeur par défaut
+     * @param parent Widget parent
+     */
+    explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
 private:
+    /**
+     * @brief User interface faite avec QtDesigner puis générée par Qmake
+     */
     Ui::MainWindow *ui;
 };
+
 #endif // MAINWINDOW_H
