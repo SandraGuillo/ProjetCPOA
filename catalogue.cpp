@@ -2,13 +2,12 @@
 #include "ui_catalogue.h"
 #include "mainwindow.h"
 #include "opener.h"
-
+//creation du catlogue
 Catalogue::Catalogue(QWidget *parent):
     QWidget(parent),
     ui(new Ui::Catalogue)
-
 {
-    ui ->setupUi(this);
+    ui->setupUi(this);
     QObject::connect(ui->pushButton, SIGNAL(clicked()), this, SLOT(retour()));
 }
 Catalogue::~Catalogue(){
