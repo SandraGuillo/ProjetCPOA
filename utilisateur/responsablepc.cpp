@@ -1,4 +1,5 @@
 #include "responsablepc.h"
+//#include "pc/pointdecollecte.h"
 
 using namespace utilisateur;
 responsablePC::responsablePC() : Utilisateur("", "", "", "") {}

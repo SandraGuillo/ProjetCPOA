@@ -1,4 +1,5 @@
 #include "producteur.h"
+#include "pc/produit.h"
 
 Producteur::Producteur() : Utilisateur::Utilisateur("","","","") {}//listPC(QList<PointDeCollecte>);
 //constructeur d'un producteur

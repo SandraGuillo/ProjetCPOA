@@ -10,6 +10,7 @@ void TestProduit::test(){
     QString lienImage = "test/image/biere.png";
     int prix = 6;
     UniteQuantitative unit {UniteQuantitative::Litre};
-    Produit p(nom,lienImage,prix,unit);
+    Producteur produc("allo@yahh.fr","njdbkjsbj","bouh","bouh2");
+    Produit p(nom,lienImage,prix,unit,produc);
     std::cout << nom.toStdString() << std::endl;
 }

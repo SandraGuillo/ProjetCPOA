@@ -1,7 +1,7 @@
 #ifndef PRODUCTEUR_H
 #define PRODUCTEUR_H
-#include "pc/pointdecollecte.h"
-#include "pc/produit.h"
+//#include "pc/pointdecollecte.h"
+
 #include "utilisateur/utilisateur.h"
 #include <QString>
 #include <QList>
@@ -10,6 +10,9 @@
  * @brief The Producteur class la classe qui permet de gerer ce qui concerne les producteur
  * @author Sandra GUILLO
  */
+class PointDeCollecte;
+class Produit;
+
 class Producteur : public utilisateur::Utilisateur
 {
 private:
