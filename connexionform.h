@@ -27,6 +27,10 @@ public slots:
      * @brief Permet de retourner à la page précédente
      */
     void retour();
+    /**
+     * @brief seConnecter permet d'acceder au catalogue
+     */
+    void seConnecter();
 private:
     /**
      * @brief User interface faite avec QtDesigner puis générée par Qmake

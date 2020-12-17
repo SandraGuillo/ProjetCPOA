@@ -1,18 +1,20 @@
 #ifndef POINTDECOLLECTE_H
 #define POINTDECOLLECTE_H
 
+//#include "pc/etatpointdecollecte.h"
 #include "utilisateur/responsablepc.h"
 
-#include "pc/etatpointdecollecte.h"
-#include "utilisateur/producteur.h"
 #include "pc/venteencours.h"
-
+#include "pc/produit.h"
 #include <QList>
 #include <QString>
 #include <QDateTime>
 
-
-
+/*
+namespace utilisateur {
+class responsablePC ;
+}
+*/
 /**
  * @brief The PointDeCollecte class qui permet la gestion du point de collecte
  * @author Sandra GUILLO, Khaled SADEGH
@@ -51,7 +53,8 @@ private:
     /**
      * @brief listeProducteur la liste des producteur du point de collecte
      */
-    //QList<Producteur> listeProducteur;
+    QList<Produit> listeProduit;
+    //Producteur p;
 
 public:
     /**
@@ -96,6 +99,11 @@ public:
      * @brief ouvrir la fonction qui va permettre de modifier l'etat du point de collecte
      */
     void setEtatPointDeCollecte(EtatPointDeCollecte *nouveauEtat);
+    /**
+     * @brief ajouterProduit fonction qui permet d'ajouter des produit sur une liste de produit
+     * @param p le produit a ajouter
+     */
+    void ajouterProduit(Produit p);
 };
 
 #endif // POINTDECOLLECTE_H

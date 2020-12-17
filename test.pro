@@ -17,6 +17,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    catalogue.cpp \
     connexionform.cpp \
     dao/daopointcollecte.cpp \
     dao/daoproducteur.cpp \
@@ -42,6 +43,7 @@ SOURCES += \
     utilisateur/utilisateur.cpp
 
 HEADERS += \
+    catalogue.h \
     connexionform.h \
     dao/dao.h \
     dao/daopointcollecte.h \
@@ -68,6 +70,7 @@ HEADERS += \
     utilisateur/utilisateur.h
 
 FORMS += \
+    catalogue.ui \
     connexionform.ui \
     inscription.ui \
     mainwindow.ui \

@@ -2,6 +2,7 @@
 #define RESPONSABLEPC_H
 //on a besoin de l'inclure pour utiliser les QString
 #include <QString>
+//#include "pc/pointdecollecte.h"
 // on inclut la class utilisateur
 #include "utilisateur/utilisateur.h"
 #include <QList>

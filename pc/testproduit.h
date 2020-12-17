@@ -2,6 +2,7 @@
 #define TESTPRODUIT_H
 #include <iostream>
 #include "pc/produit.h"
+#include "utilisateur/producteur.h"
 /**
  * @brief The TestProduit class la classe de test du produit
  * @author Sandra GUILLO

@@ -1,5 +1,5 @@
 #include "pointdecollecte.h"
-
+//#include "utilisateur/responsablepc.h"
 
 //constructeur du point de collecte
 PointDeCollecte::PointDeCollecte() : nom(""), adresse(""), codePostal(0), dateFermeture(QDateTime()), cycleEnJour(0), respo(utilisateur::responsablePC()) {
@@ -36,5 +36,7 @@ int PointDeCollecte::getCycle() const{
 /*void PointDeCollecte::setEtatPointDeCollecte(EtatPointDeCollecte *nouveauEtat){
     etatpc = nouveauEtat;
 }*/
-
+void PointDeCollecte::ajouterProduit(Produit p){
+    listeProduit.append(p);
+}
 
