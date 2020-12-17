@@ -41,11 +41,3 @@ void Opener::afficherInscription() {
     win->setCentralWidget(new Inscription);
     delete this;
 }
-/**
- * @brief Opener::afficherCatalogue
- */
-void Opener::afficherCatalogue(){
-    MainWindow *win=(MainWindow*)parentWidget();
-    win->setCentralWidget(new Catalogue);
-    delete this
-}

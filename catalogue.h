@@ -30,7 +30,7 @@ private:
     /**
       *@brief User interface faite avec QtDesigner puis generer par Qmake
       * */
-    Ui:Catalogue *ui;
+    Ui::Catalogue *ui;
 };
 
 #endif // CATALOGUE_H

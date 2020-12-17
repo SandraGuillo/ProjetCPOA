@@ -2,6 +2,8 @@
 #include "ui_connexionform.h"
 #include "mainwindow.h"
 #include "opener.h"
+#include "catalogue.h"
+
 ConnexionForm::ConnexionForm(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::ConnexionForm)
