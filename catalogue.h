@@ -2,6 +2,7 @@
 #define CATALOGUE_H
 
 #include <QWidget>
+
 namespace Ui {
     class Catalogue;
 

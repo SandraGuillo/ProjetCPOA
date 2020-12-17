@@ -1,4 +1,7 @@
 #include "catalogue.h"
+#include "ui_catalogue.h"
+#include "mainwindow.h"
+#include "opener.h"
 
 Catalogue::Catalogue(QWidget *parent):
     QWidget(parent),

@@ -2,6 +2,7 @@
 #define CONNEXIONFORM_H
 
 #include <QWidget>
+#include "catalogue.h"
 
 namespace Ui {
 class ConnexionForm;
